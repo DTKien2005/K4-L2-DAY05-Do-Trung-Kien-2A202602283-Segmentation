@@ -5,3 +5,18 @@ __pycache__/
 data/**/groundtruth/
 data/_cache/
 /*.zip
+
+# AI Models & Weights (Do not push to GitHub)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Automation & Scratch
+scripts/auto_prelabel.py
+outputs/
+backups/
+reports/SCORECARD.md
+reports/scorecard.json
+scratch/
+
